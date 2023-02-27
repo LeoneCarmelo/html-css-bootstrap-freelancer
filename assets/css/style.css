@@ -24,7 +24,7 @@ header {
 /* #endregion Header */
 
 /* #region Banner */
-.banner {
+.banner, .about{
     background-color: var(--section);
     min-height: 380px;
 }
