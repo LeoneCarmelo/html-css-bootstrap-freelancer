@@ -11,6 +11,7 @@
 :root {
     --header:#2c3e50;
     --section:#1abc9c;
+    --footer: #3a546d;
 }
 
 /* #endregion Colors */
@@ -37,6 +38,12 @@ header {
 
 /* #endregion Banner */
 
+footer .top {
+    background-color: var(--footer);
+}
 
+footer .bottom {
+    background-color: var(--header);
+}
 
 
