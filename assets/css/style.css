@@ -16,6 +16,11 @@
 
 /* #endregion Colors */
 
+/* #region Utilities */
+.bg_section {
+    background-color: var(--section);
+}
+/* #endregion Utilities */
 /* #region Header */
 header {
     background-color: var(--header);
@@ -28,6 +33,10 @@ header {
 .banner, .about{
     background-color: var(--section);
     min-height: 380px;
+}
+
+div > i {
+    top:-6px;
 }
 
 .avatar {
